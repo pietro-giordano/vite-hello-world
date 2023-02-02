@@ -15,5 +15,11 @@ export default {
 </template>
 
 <style scoped>
-
+h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      translate: -50% -50%;
+      background-color: rgba(148, 146, 146, 0.5);
+}
 </style>

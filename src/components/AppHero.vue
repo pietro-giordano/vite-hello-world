@@ -9,13 +9,15 @@ export default {
 </script>
 
 <template>
-      <div class="jumbotron"></div>
+      <div class="jumbotron">
+      </div>
 </template>
 
 <style scoped>
-.jumbotron {
-      width: 100%;
+div {
+      background-image: url("https://pad.mymovies.it/filmclub/2010/03/018/coverlg.jpg");
       height: 100vh;
-      background-image: url('tiemporeal.periodismoudec.cl/wp-content/uploads/2022/09/The-Boys-temporada-3-esta-loca-teoria-sobre-los-planes.jpeg');
+      width: 100%;
+      background-size: cover;
 }
 </style>
